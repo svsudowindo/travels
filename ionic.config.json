@@ -1,0 +1,7 @@
+{
+  "name": "tralamo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
