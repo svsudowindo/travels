@@ -1,11 +1,70 @@
+@import '../../../../theme/variables.scss';
+
 .bg-image {
     --background: url(../../../../assets/images/pre-login-BG.jpg) top center / 100% 100%;
+    .image {
+        margin: 5px 20px;
+    }
+    .heading {
+        margin-top: 20%;
+        margin-left: 12px;
+        width: 30%;
+        border-bottom: 2px solid $-orange-color;
+        p {
+            color: $-white-color;
+            font-family: $Montserrat-Family;
+            font-size: 15px;
+            letter-spacing: 0.11em;
+            font-weight: $Montserrat-Bold;    
+            margin-bottom: 8px;
+        }
+    }
     .bg-color {
         --background:transparent;
         --highlight-background: white;
         border-bottom: 1px solid white;
+        font-family: $Montserrat-Family;
+        font-weight: $Montserrat-Bold;
+        margin-top: 20px;
         ion-label {
             color: white !important;
+        }
+        ion-input {
+            color: white !important;
+        }
+    }
+    .login-btn {
+        margin-top: 40px;
+        ion-button {
+            font-family: $Montserrat-Family;
+            font-weight: $Montserrat-Bold;
+            color: $-white-color;
+            --background: #F47E24;
+        }
+    }
+    .forget-pass-link {
+        margin-top: 15px;
+        a {
+            color: $-orange-color;
+            // float: right;
+            font-family: $Montserrat-Family;
+            font-weight: $Montserrat-Medium;
+        }
+    }
+    .register-info {
+        margin-top: 15px;
+        p {
+            font-family: $Montserrat-Family;
+            font-weight: $Montserrat-Medium;
+            color: $-white-color;
+            font-size: 14px;
+        }
+        ion-button {
+            font-family: $Montserrat-Family;
+            font-weight: $Montserrat-Bold;
+            color: $-white-color;
+            // --background: #F47E24;
+            --border-color: #F47E24;
         }
     }
 }
