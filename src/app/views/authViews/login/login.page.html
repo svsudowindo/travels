@@ -19,11 +19,11 @@
       <ion-button expand="block" >LOGIN</ion-button>
   </div>
   <div class="forget-pass-link" align="right">
-    <a color="primary">forget password?</a>
+    <a color="primary" (click)="forgetPassword()">forget password?</a>
   </div>
 
   <div class="register-info" align="center">
     <p>Don't have an account?</p>
-    <ion-button  fill="outline">Register</ion-button>
+    <ion-button  fill="outline" (click)="register()">Register</ion-button>
   </div>
 </ion-content>

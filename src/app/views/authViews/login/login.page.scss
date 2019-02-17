@@ -7,7 +7,7 @@
     }
     .heading {
         margin-top: 20%;
-        margin-left: 12px;
+        margin-left: 5px;
         width: 30%;
         border-bottom: 2px solid $-orange-color;
         p {
@@ -22,6 +22,7 @@
     .bg-color {
         --background:transparent;
         --highlight-background: white;
+        --padding-start: 0px;
         border-bottom: 1px solid white;
         font-family: $Montserrat-Family;
         font-weight: $Montserrat-Bold;

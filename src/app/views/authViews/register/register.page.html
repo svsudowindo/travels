@@ -1,9 +1,40 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content padding class="bg-image">
+  <div class="image">
+    <ion-img src="../../../../assets/images/logo.png"></ion-img>
+  </div>
+  <div class="heading">
+    <p>REGISTER</p>
+  </div>
+  <div class="content-background">
+    <ion-item class="bg-color">
+      <ion-label position="floating">FULL NAME</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item class="bg-color">
+      <ion-label position="floating">EMAIL</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item class="bg-color">
+      <ion-label position="floating">MOBILE</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+   
+    <ion-item class="bg-color">
+      <ion-label position="floating">PASSWORD</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item class="bg-color">
+      <ion-label position="floating">REFERRAL CODE</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </div>
+  <div class="login-btn">
+      <ion-button expand="block" >REGISTER</ion-button>
+  </div>
+ 
 
-<ion-content padding>
-
+  <div class="register-info" align="center">
+    <p>Already have an account?</p>
+    <ion-button  fill="outline" (click)="login()">LOGIN</ion-button>
+  </div>
 </ion-content>
