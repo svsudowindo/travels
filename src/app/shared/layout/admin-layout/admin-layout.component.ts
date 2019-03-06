@@ -7,7 +7,38 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminLayoutComponent implements OnInit {
 
-  public appPages = [];
+  public section1 = [
+    {
+      title: 'FLIGHTS',
+      url: '/login',
+      icon: 'airplane',
+      isOrange: false
+    },
+    {
+      title: 'BUSES',
+      url: '/login',
+      icon: 'bus',
+      isOrange: false
+    },
+    {
+      title: 'HOLIDAYS',
+      url: '/login',
+      icon: 'airplane',
+      isOrange: false
+    },
+    {
+      title: 'LOGIN',
+      url: '/login',
+      // icon: 'airplane',
+      isOrange: true
+    },
+    {
+      title: 'REGISTER',
+      url: '/login',
+      // icon: 'airplane',
+      isOrange: true
+    },
+  ];
   constructor() { }
 
   ngOnInit() {
