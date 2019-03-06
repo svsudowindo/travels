@@ -5,20 +5,6 @@
     .image {
         margin: 5px 20px;
     }
-    .heading {
-        margin-top: 20%;
-        margin-left: 5px;
-        width: 30%;
-        border-bottom: 2px solid $-orange-color;
-        p {
-            color: $-white-color;
-            font-family: $Montserrat-Family;
-            font-size: 15px;
-            letter-spacing: 0.11em;
-            font-weight: $Montserrat-Bold;    
-            margin-bottom: 8px;
-        }
-    }
     .bg-color {
         --background:transparent;
         --highlight-background: white;
