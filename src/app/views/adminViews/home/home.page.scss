@@ -1,4 +1,54 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+@import '../../../../theme/variables.scss';
+
+.bg-image {
+  --background: url(../../../../assets/images/pre-login-BG.jpg) top center / 100% 100%;
+  .image {
+      margin: 5px 20px;
+  }
+ .align-image{
+   position: relative;
+   top:15px;
+ }
+ .heading {
+  margin-top: 5%;
+  margin-left: 20px;
+  width: 100%;
+  a {
+      color: $-white-color;
+      font-family: $Montserrat-Family;
+      font-size: 15px;
+      letter-spacing: 0.11em;
+      font-weight: $Montserrat-Bold;    
+      margin-bottom: 8px;
+  }
+}
+.bg-color {
+  --background:transparent;
+  --highlight-background: white;
+  --padding-start: 0px;
+  border-bottom: 1px solid white;
+  font-family: $Montserrat-Family;
+  font-weight: $Montserrat-Bold;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+  ion-label {
+      color: white !important;
+  }
+  ion-input {
+      color: white !important;
+  }
+}
+.login-btn {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  ion-button {
+      font-family: $Montserrat-Family;
+      font-weight: $Montserrat-Bold;
+      color: $-white-color;
+      --background: #F47E24;
+  }
+}
+
 }
